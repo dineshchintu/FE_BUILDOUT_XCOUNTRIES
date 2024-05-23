@@ -2,6 +2,7 @@ import fetchCountries from "../../services/services";
 import React, { useState, useEffect } from "react";
 import styles from "./Flag.module.css";
 import Card from "../Card/Card";
+import axios from "axios";
 
 const Flag = () => {
 
